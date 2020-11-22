@@ -1,6 +1,12 @@
 server:
   port: 8761
 
+spring:
+  security:
+    user:
+      name: root
+      password: 1234
+
 eureka:
   instance:
     hostname: localhost
