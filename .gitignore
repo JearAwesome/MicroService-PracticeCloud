@@ -1,0 +1,35 @@
+# Created by .ignore support plugin (hsz.mobi)
+*~
+#*
+*#
+.#*
+.classpath
+.project
+.settings
+.springBeans
+.gradle
+
+
+# ignore maven temp
+bin/
+target/
+build/
+out/
+
+.idea
+*.iml
+.factorypath
+
+*.class
+
+# ignore log
+/logs
+*.log
+
+# ignore release file
+/*.war
+*.war
+*.jar
+*.ear
+
+!.gitignore

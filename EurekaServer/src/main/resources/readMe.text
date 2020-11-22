@@ -1,0 +1,6 @@
+Three steps to start eureka server
+1. Add starter-web dependency and eureka-server dependency in pom
+2. Create entry application with comment @SpringBootApplication and @EnableEurekaServer
+3. Add configuration properties in application.yml file
+
+input localhost:8761 to open eureka server page, in future, will configure username and password to login.
